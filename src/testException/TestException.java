@@ -9,7 +9,7 @@ package testException;
 public class TestException {
 	public static void main(String[] args) {
 		Computer c = null;
-		if (c != null) {
+		if (c != null){
 			c.start();
 		}
 		
