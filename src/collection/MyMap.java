@@ -37,6 +37,10 @@ public class MyMap {
 		map.put("assss",1);
 		System.out.println(map.get("assss"));
 	}
+	public int size() {
+		// TODO Auto-generated method stub
+		return size;
+	}
 }
 
 class MyEntry {
