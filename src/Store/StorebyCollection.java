@@ -27,6 +27,10 @@ public class StorebyCollection {
 		list.add(map);
 		list.add(map1);
 		list.add(map2);
+		
+		for (Object obj: list){
+			System.out.println(((MyMap) obj).get("name"));
+		}
 	}
 	
 	
