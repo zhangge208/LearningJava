@@ -1,6 +1,7 @@
 package Store;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import collection.MyMap;
@@ -27,7 +28,11 @@ public class StorebyCollection {
 		list.add(map);
 		list.add(map1);
 		list.add(map2);
-		
+		Iterator iterator = list.iterator();
+		while(iterator.hasNext()) {
+			String str = (String) iterator.next();
+			System.out.println(str);
+		}
 		for (Object obj: list){
 			System.out.println(((MyMap) obj).get("name"));
 		}
