@@ -1,13 +1,11 @@
 package collection;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Implement of ArrayList
  * @author zhangge
  *
  */
+
 public class MyArrayList {
 	private Object[] elementData;
 	private int size;
@@ -82,12 +80,14 @@ public class MyArrayList {
     		}
     	}
     }
+    
+    public boolean hasNext() {
+    	return false;
+    }
 	public static void main(String[] args) {
 		MyArrayList list = new MyArrayList();
 		list.add("aaa");
-		list.add(1, "cccc");
-		
-		
+		list.add(1, "cccc");	
 	}
 
 }
