@@ -1,5 +1,8 @@
 package collection;
 
+import java.util.Iterator;
+import java.util.LinkedList;
+
 public class MyLinkedList {
 	public Node first;
 	private Node last;
@@ -83,19 +86,25 @@ public class MyLinkedList {
 	}
 	
 	public static void main(String[] args) {
-		MyLinkedList list = new MyLinkedList();
+		LinkedList list = new LinkedList();
 		list.add("aaa");
+		list.add(123);
+		list.add(23456);
 		list.add("bbb");
-		list.add(234);
-		list.add(575757);
-		list.add(2,"sed");
+		Iterator iter = list.iterator();
+		while(iter.hasNext()) {
+			Object i =iter.next();
+			System.out.println(i);
+		}
 		System.out.println(list.size());
 		//System.out.println(list.get(0));
 		//System.out.println(list.get(1));
 		list.remove(1);
+		/**
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println(list.get(i));
 		}
+		**/
 		
 	}
 }

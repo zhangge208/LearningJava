@@ -51,5 +51,4 @@ class MyEntry {
 		this.key = key;
 		this.value = value;
 	}
-	
 }
