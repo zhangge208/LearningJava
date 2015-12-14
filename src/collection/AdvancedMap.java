@@ -1,5 +1,9 @@
 package collection;
-
+/**
+ * 
+ * @author zhangge
+ *
+ */
 public class AdvancedMap {
 	MyLinkedList[] arr =new MyLinkedList[1000]; //Map的底层结构：数组 + 链表
 	int size;
