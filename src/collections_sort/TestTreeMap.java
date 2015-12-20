@@ -1,5 +1,8 @@
 package collections_sort;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.TreeMap;
 
 public class TestTreeMap {
@@ -8,6 +11,19 @@ public class TestTreeMap {
 		Person p2 = new Person("zgzg", 1010);
 		Person p3 = new Person("azqg", 2100);
 		Person p4 = new Person("gg", 10);
+		
+		ArrayList<Person> list = new ArrayList<Person>();
+		
+		Collections.sort(list, new java.util.Comparator<Person>(){
+
+						@Override
+						public int compare(Person o1, Person o2) {
+							return -(o1.getScore() - o2.getScore());
+						}
+						
+					}
+				);
+		
 		TreeMap<Person, String> map = new TreeMap<Person, String>(
 				new java.util.Comparator<Person>(){
 
