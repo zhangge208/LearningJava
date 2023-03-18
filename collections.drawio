@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-18T12:26:20.418Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="1R2qBFJuJ6dAZ7hr8Bz7" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-18T12:55:01.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="EyTYOidY0t2BD_VaHk_0" version="20.8.23" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2651" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2863" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -266,6 +266,12 @@
             <mxPoint x="770" y="600" as="sourcePoint" />
             <mxPoint x="860" y="500" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JqaAN7-HeVUfOZ3b-MJZ-3" value="&lt;p style=&quot;text-align: left;&quot;&gt;动态扩容原理&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-80" y="680" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JqaAN7-HeVUfOZ3b-MJZ-4" value="&lt;p style=&quot;text-align: left;&quot;&gt;1. 哈希函数&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 哈希桶index&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. JDK1.7 版本的问题&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. JDK 1.8的改进&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="515" y="610" width="170" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
