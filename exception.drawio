@@ -1,34 +1,137 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T05:02:42.758Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="uJBV-M9stZj-IG8SlKj2" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T05:31:50.599Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="pzNohPrt5UfSlAz_bWAY" version="21.1.1" type="github">
   <diagram name="第 1 页" id="HNYDPUA9BnLiJMpUdGyk">
-    <mxGraphModel dx="1242" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2411" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2xDPPOLnJWVwvQlAHId1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2xDPPOLnJWVwvQlAHId1-6" target="2xDPPOLnJWVwvQlAHId1-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-38" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="380" width="770" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="2xDPPOLnJWVwvQlAHId1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2xDPPOLnJWVwvQlAHId1-6" target="2xDPPOLnJWVwvQlAHId1-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-36" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="384" width="240" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="2xDPPOLnJWVwvQlAHId1-6" value="Throwable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="2xDPPOLnJWVwvQlAHId1-7" value="Error" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="310" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="2xDPPOLnJWVwvQlAHId1-10" value="Exception" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="310" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="2xDPPOLnJWVwvQlAHId1-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="2xDPPOLnJWVwvQlAHId1-10">
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="2xDPPOLnJWVwvQlAHId1-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="250" as="sourcePoint" />
-            <mxPoint x="400" y="320" as="targetPoint" />
             <Array as="points">
               <mxPoint x="490" y="280" />
-              <mxPoint x="590" y="280" />
-              <mxPoint x="590" y="310" />
+              <mxPoint x="220" y="280" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-6" value="Throwable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2xDPPOLnJWVwvQlAHId1-7" target="2xDPPOLnJWVwvQlAHId1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-7" value="Error" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2xDPPOLnJWVwvQlAHId1-10" target="2xDPPOLnJWVwvQlAHId1-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-10" value="Exception" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2xDPPOLnJWVwvQlAHId1-12" target="2xDPPOLnJWVwvQlAHId1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-14" value="extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2xDPPOLnJWVwvQlAHId1-13">
+          <mxGeometry x="0.1" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-12" value="Object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-16" value="程序中无法处理的错误" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="330" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2xDPPOLnJWVwvQlAHId1-17" target="2xDPPOLnJWVwvQlAHId1-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-17" value="VirtualMachineError" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-19" value="OutOfMemoryError" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-21" value="StackOverFlowError" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2xDPPOLnJWVwvQlAHId1-17" target="2xDPPOLnJWVwvQlAHId1-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="530" as="sourcePoint" />
+            <mxPoint x="90" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-23" value="AWTError" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2xDPPOLnJWVwvQlAHId1-7" target="2xDPPOLnJWVwvQlAHId1-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="390" as="sourcePoint" />
+            <mxPoint x="310" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2xDPPOLnJWVwvQlAHId1-6" target="2xDPPOLnJWVwvQlAHId1-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="260" as="sourcePoint" />
+            <mxPoint x="230" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="280" />
+              <mxPoint x="690" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-41" value="extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2xDPPOLnJWVwvQlAHId1-25">
+          <mxGeometry x="-0.725" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-26" value="程序中可以catch（捕获）并且可以处理的异常" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2xDPPOLnJWVwvQlAHId1-27" target="2xDPPOLnJWVwvQlAHId1-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-27" value="RuntimeException" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-29" value="运行时异常&lt;br&gt;RuntimeException类和其子类&lt;br&gt;代码本身有问题需要在逻辑上改进避免" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="384" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-30" value="IOException" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-31" value="NullPointerException" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-33" value="IndexOutOf&lt;br&gt;BoundsException" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2xDPPOLnJWVwvQlAHId1-27" target="2xDPPOLnJWVwvQlAHId1-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="510" as="sourcePoint" />
+            <mxPoint x="480" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="540" />
+              <mxPoint x="690" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2xDPPOLnJWVwvQlAHId1-10" target="2xDPPOLnJWVwvQlAHId1-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="390" as="sourcePoint" />
+            <mxPoint x="600" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-37" value="非运行时异常&lt;br&gt;checkedException" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="384" width="110" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="2xDPPOLnJWVwvQlAHId1-40" value="UncheckedException: Error与其子类 + RuntimeException类和其子类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="670" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
